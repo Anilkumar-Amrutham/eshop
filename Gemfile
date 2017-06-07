@@ -38,6 +38,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'formtastic-bootstrap'
 # gem "wice_grid", '3.6.0'
 gem 'wice_grid', '> 3.6', git: 'https://github.com/leikind/wice_grid.git', branch: 'rails3'
+gem 'rails_12factor', group: :production
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
