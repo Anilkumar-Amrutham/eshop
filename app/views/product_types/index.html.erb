@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<h1>ProductTypes</h1>
+
+<%= grid(@product_types_grid) do |g|
+  g.column name: 'Name', attribute: 'name'
+ 
+end -%>
+
+
+<br>
+
+<%= link_to 'New ProductType', new_product_type_path %>
